@@ -71,7 +71,7 @@ def plot(x, y, normwaterstand):
     # Labels for legend 
     legend_elements = [
         Patch(facecolor= facecolor_g, edgecolor= 'black', label=f'>NAP +{normwaterstand} m'),
-        Patch(facecolor= facecolor_r, edgecolor= 'black',  label=f'<NAP +{normwaterstand} m'),
+        Patch(facecolor= facecolor_r, edgecolor= 'black', label=f'<NAP +{normwaterstand} m'),
         ]
 
     ax.legend(handles=legend_elements, loc='upper left', title='Legenda')
